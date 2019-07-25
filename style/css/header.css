@@ -1,0 +1,82 @@
+.header__wrap {
+  background-color: #df001f;
+  padding: 10px 0;
+}
+.header__wrap .navbar {
+  padding: 0 !important;
+}
+.header__wrap .navbar .navbar-toggler {
+  border-color: #fdfdfd;
+}
+.header__wrap .navbar .navbar-toggler:focus {
+  outline: none;
+}
+.header__wrap .navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Droid-Sans";
+  font-size: 1.3em;
+}
+.header__wrap .navbar .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+.header__wrap .header__logo {
+  align-items: center;
+}
+.header__wrap .header__logo img.logo {
+  width: 100px;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .header__wrap .header__logo img.logo {
+    width: 80px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 568px) {
+  .header__wrap .header__logo img.logo {
+    width: 60px;
+    height: auto;
+  }
+}
+.header__wrap .header__social {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Droid-Sans";
+  font-size: 1.3em;
+}
+.header__wrap .header__social .social__content {
+  padding-right: 25px;
+}
+.header__wrap .header__social span,
+.header__wrap .header__social img {
+  padding-right: 5px;
+}
+@media screen and (max-width: 768px) {
+  .header__wrap .header__social span,
+.header__wrap .header__social img {
+    display: none !important;
+  }
+}
+.header__wrap .header__social .header__btn {
+  align-items: flex-start !important;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-family: "Droid-Sans";
+  font-size: 0.75em;
+  color: #df001f;
+}
+@media screen and (max-width: 768px) {
+  .header__wrap .header__social .header__btn {
+    margin-top: 7px;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .header__wrap .header__social .header__btn {
+    margin-top: 5px;
+    padding: 8px 5px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,1 +1,6 @@
 @import"css/fonts.css";
+@import"css/header.css";
+@import"css/banner.css";
+body {
+    font-size: 10px!important;
+}
