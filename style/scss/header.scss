@@ -1,0 +1,87 @@
+//SCSS
+$font-droid:"Droid-Sans";
+$font-vibes:"Vibes-Regular";
+$font-bold:"Oswald-Bold";
+$font-regular:"Oswald-Regular";
+$font-medium: "Oswald-Medium";
+$bg-color:#df001f;
+$white-text: #ffffff;
+$black-text: #333333;
+$red-text:#df001f;
+$p:100px;
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 568px) {}
+
+//CSS
+.header__wrap {
+    background-color: $bg-color;
+    padding: $p*0.1 0;
+    .navbar {
+        padding: 0!important;
+        .navbar-toggler {
+            border-color: rgb(253, 253, 253);
+            &:focus {
+                outline: none;
+            }
+        }
+        .navbar-nav {
+            .nav-link {
+                color: $white-text;
+                text-transform: uppercase;
+                font-family: $font-droid;
+                font-size: 1.3em;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .header__logo {
+        align-items: center;
+        img.logo {
+            width: 100px;
+            height: auto;
+            @media screen and (max-width: 768px) {
+                width: 80px;
+                height: auto;
+            }
+            @media screen and (max-width: 568px) {
+                width: 60px;
+                height: auto;
+            }
+        }
+    }
+    .header__social {
+        color: $white-text;
+        text-transform: uppercase;
+        font-family: $font-droid;
+        font-size: 1.3em;
+        .social__content {
+            padding-right: $p*0.25;
+        }
+        span,
+        img {
+            padding-right: $p*0.05;
+            @media screen and (max-width: 768px) {
+                display: none!important;
+            }
+        }
+        .header__btn {
+            align-items: flex-start!important;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-family: $font-droid;
+            font-size: 0.75em;
+            color: $red-text;
+            @media screen and (max-width: 768px) {
+                margin-top: 7px;
+                padding: 10px 20px;
+            }
+            @media screen and (max-width: 568px) {
+                margin-top: 5px;
+                padding: 8px 5px;
+            }
+        }
+    }
+}

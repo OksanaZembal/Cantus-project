@@ -1,0 +1,92 @@
+.banner__wrap {
+  position: relative;
+}
+.banner__wrap .banner__content {
+  position: absolute;
+  display: block;
+  top: 17%;
+  left: 40%;
+}
+@media screen and (max-width: 768px) {
+  .banner__wrap .banner__content {
+    top: 15%;
+    left: 40%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .banner__wrap .banner__content {
+    top: 10%;
+    left: 35%;
+  }
+}
+.banner__wrap .banner__content .banner__title {
+  font-size: 9em;
+  font-weight: 900;
+  line-height: 0.74;
+  font-family: "Oswald-Bold";
+  color: #df001f;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .banner__wrap .banner__content .banner__title {
+    font-size: 6em;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .banner__wrap .banner__content .banner__title {
+    font-size: 3.8em;
+    margin-bottom: 4px;
+  }
+}
+.banner__wrap .banner__content .banner__text {
+  font-family: "Vibes-Regular";
+  text-align: center;
+  font-size: 6em;
+  line-height: 2;
+  text-align: center;
+  color: #333333;
+}
+@media screen and (max-width: 900px) {
+  .banner__wrap .banner__content .banner__text {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner__wrap .banner__content .banner__text {
+    font-size: 4em;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .banner__wrap .banner__content .banner__text {
+    font-size: 2.4em;
+    margin-bottom: 0;
+  }
+}
+.banner__wrap .banner__content .banner__btn {
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-family: "Droid-Sans";
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 2.5;
+  letter-spacing: 1.2px;
+  background-color: #df001f;
+  color: #ffffff;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .banner__wrap .banner__content .banner__btn {
+    line-height: 1.5;
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 568px) {
+  .banner__wrap .banner__content .banner__btn {
+    line-height: 0.5;
+    font-size: 1.2em;
+  }
+}
+
+/*# sourceMappingURL=banner.css.map */
