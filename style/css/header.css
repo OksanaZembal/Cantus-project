@@ -5,6 +5,11 @@
 .header__wrap .navbar {
   padding: 0 !important;
 }
+@media screen and (max-width: 767px) {
+  .header__wrap .navbar {
+    width: 100px;
+  }
+}
 .header__wrap .navbar .navbar-toggler {
   border-color: #fdfdfd;
 }
