@@ -9,16 +9,15 @@ $white-text: #ffffff;
 $black-text: #333333;
 $red-text:#df001f;
 $p:100px;
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 568px) {}
-
 //CSS
 .header__wrap {
     background-color: $bg-color;
     padding: $p*0.1 0;
     .navbar {
         padding: 0!important;
+        @media screen and (max-width: 767px) {
+            width: 100px;
+        }
         .navbar-toggler {
             border-color: rgb(253, 253, 253);
             &:focus {
