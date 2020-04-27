@@ -1,0 +1,66 @@
+.container {
+  margin-top: 50px;
+}
+.container h3 {
+  font-family: "Oswald-Regular";
+  font-size: 2em;
+  color: #333333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.94;
+  letter-spacing: 3.2px;
+  text-align: left;
+}
+.container .intro-sub {
+  font-family: "Vibes-Regular";
+  color: #df001f;
+  font-size: 3em;
+}
+.container .btn-block {
+  margin-bottom: 10px;
+}
+.container .btn-block .side-btn {
+  padding: 0;
+  margin: 0 5px;
+  border: none;
+  max-width: 3500px;
+}
+.container .intro__content {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+}
+.container .intro__content:hover .cart-text {
+  bottom: 0px !important;
+  transition: all 0.4s;
+}
+.container .intro__content .img-fluid {
+  object-fit: cover;
+  width: 100%;
+}
+.container .cart-text {
+  position: absolute;
+  bottom: -52px;
+  transition: all 0.4s;
+  width: calc(100% - 30px);
+  background-color: #df001f;
+  color: #ffffff;
+  padding: 15px;
+}
+.container .singer {
+  font-family: "Oswald-Regular";
+  font-size: 1.5em;
+}
+.container .music-style {
+  font-family: "Droid-Sans";
+  font-size: 1.2em;
+  padding: 5px;
+}
+.container .social__introduce {
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=introduce.css.map */

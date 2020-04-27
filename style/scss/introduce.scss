@@ -1,0 +1,78 @@
+//SCSS
+$font-droid:"Droid-Sans";
+$font-vibes:"Vibes-Regular";
+$font-bold:"Oswald-Bold";
+$font-regular:"Oswald-Regular";
+$font-medium: "Oswald-Medium";
+$bg-color:#df001f;
+$white-text: #ffffff;
+$black-text: #333333;
+$red-text:#df001f;
+$p:100px;
+//CSS
+.container {
+    margin-top: $p*0.5;
+    h3 {
+        font-family: $font-regular;
+        font-size: 2em;
+        color: $black-text;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.94;
+        letter-spacing: 3.2px;
+        text-align: left;
+    }
+    .intro-sub {
+        font-family: $font-vibes;
+        color: $red-text;
+        font-size: 3em;
+    }
+    .btn-block {
+        margin-bottom: $p*0.1;
+        .side-btn {
+            padding: 0;
+            margin: 0 $p*0.05;
+            border: none;
+            max-width: $p*035;
+        }
+    }
+    .intro__content {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        position: relative;
+        height: 300px;
+        &:hover {
+            .cart-text {
+                bottom: 0px!important;
+                transition: all 0.4s;
+            }
+        }
+        .img-fluid {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .cart-text {
+        position: absolute;
+        bottom: -52px;
+        transition: all 0.4s;
+        width: calc(100% - 30px);
+        background-color: $bg-color;
+        color: $white-text;
+        padding: $p*0.15;
+    }
+    .singer {
+        font-family: $font-regular;
+        font-size: 1.5em;
+    }
+    .music-style {
+        font-family: $font-droid;
+        font-size: 1.2em;
+        padding: $p*0.05;
+    }
+    .social__introduce {
+        padding-top: $p*0.1;
+    }
+}
