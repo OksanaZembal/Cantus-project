@@ -1,7 +1,10 @@
 .container {
   margin-top: 50px;
 }
-.container h3 {
+.container .intro__header {
+  padding-bottom: 25px;
+}
+.container .intro__header h3 {
   font-family: "Oswald-Regular";
   font-size: 2em;
   color: #333333;
@@ -12,55 +15,80 @@
   letter-spacing: 3.2px;
   text-align: left;
 }
-.container .intro-sub {
+.container .intro__header .intro__sub {
   font-family: "Vibes-Regular";
   color: #df001f;
   font-size: 3em;
 }
-.container .btn-block {
-  margin-bottom: 10px;
+.container .intro__slider {
+  position: relative;
 }
-.container .btn-block .side-btn {
+.container .intro__slider .btn-block {
+  margin-bottom: 10px;
+  position: relative;
+}
+.container .intro__slider .btn-block .side-btn {
   padding: 0;
   margin: 0 5px;
   border: none;
   max-width: 3500px;
 }
-.container .intro__content {
+.container .intro__slider .slick-prev {
+  position: absolute;
+  top: -22px;
+  left: calc(100% - 60px);
+}
+.container .intro__slider .slick-next {
+  position: absolute;
+  top: -22px;
+  right: 16px;
+}
+.container .intro__slider .intro__content {
   display: flex;
   overflow: hidden;
   justify-content: center;
   position: relative;
   height: 300px;
 }
-.container .intro__content:hover .cart-text {
+.container .intro__slider .intro__content:hover .cart-text {
   bottom: 0px !important;
   transition: all 0.4s;
 }
-.container .intro__content .img-fluid {
+.container .intro__slider .intro__content .img-fluid {
   object-fit: cover;
   width: 100%;
 }
-.container .cart-text {
+.container .intro__slider .cart-text {
   position: absolute;
-  bottom: -52px;
+  bottom: -45px;
   transition: all 0.4s;
   width: calc(100% - 30px);
   background-color: #df001f;
   color: #ffffff;
   padding: 15px;
 }
-.container .singer {
+.container .intro__slider .singer {
   font-family: "Oswald-Regular";
   font-size: 1.5em;
 }
-.container .music-style {
+.container .intro__slider .music-style {
   font-family: "Droid-Sans";
   font-size: 1.2em;
   padding: 5px;
 }
-.container .social__introduce {
+.container .intro__slider .social__introduce {
   padding-top: 10px;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .intro__line {
+  width: 100%;
+  height: 2px;
+  background-color: #333333;
+  margin-top: 80px;
+  opacity: 0.35;
 }
 
 /*# sourceMappingURL=introduce.css.map */
