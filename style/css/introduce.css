@@ -1,94 +1,111 @@
 .container {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
 .container .intro__header {
-  padding-bottom: 25px;
+    padding-bottom: 25px;
 }
+
 .container .intro__header h3 {
-  font-family: "Oswald-Regular";
-  font-size: 2em;
-  color: #333333;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.94;
-  letter-spacing: 3.2px;
-  text-align: left;
+    font-family: "Oswald-Regular";
+    font-size: 2em;
+    color: #333333;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 3.2px;
+    text-align: left;
 }
+
 .container .intro__header .intro__sub {
-  font-family: "Vibes-Regular";
-  color: #df001f;
-  font-size: 3em;
+    font-family: "Vibes-Regular";
+    color: #df001f;
+    font-size: 3em;
 }
+
 .container .intro__slider {
-  position: relative;
+    position: relative;
 }
+
 .container .intro__slider .btn-block {
-  margin-bottom: 10px;
-  position: relative;
+    margin-bottom: 10px;
+    position: relative;
 }
+
 .container .intro__slider .btn-block .side-btn {
-  padding: 0;
-  margin: 0 5px;
-  border: none;
-  max-width: 3500px;
+    padding: 0;
+    margin: 0 5px;
+    border: none;
+    max-width: 3500px;
 }
+
 .container .intro__slider .slick-prev {
-  position: absolute;
-  top: -22px;
-  left: calc(100% - 60px);
+    position: absolute;
+    top: -22px;
+    left: calc(100% - 60px);
 }
+
 .container .intro__slider .slick-next {
-  position: absolute;
-  top: -22px;
-  right: 16px;
+    position: absolute;
+    top: -22px;
+    right: 16px;
 }
+
 .container .intro__slider .intro__content {
-  display: flex;
-  overflow: hidden;
-  justify-content: center;
-  position: relative;
-  height: 300px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    position: relative;
+    height: 300px;
 }
+
 .container .intro__slider .intro__content:hover .cart-text {
-  bottom: 0px !important;
-  transition: all 0.4s;
+    bottom: 0px !important;
+    transition: all 0.4s;
 }
+
 .container .intro__slider .intro__content .img-fluid {
-  object-fit: cover;
-  width: 100%;
+    object-fit: cover;
+    width: 100%;
 }
+
 .container .intro__slider .cart-text {
-  position: absolute;
-  bottom: -45px;
-  transition: all 0.4s;
-  width: calc(100% - 30px);
-  background-color: #df001f;
-  color: #ffffff;
-  padding: 15px;
+    position: absolute;
+    bottom: -45px;
+    transition: all 0.4s;
+    width: calc(100% - 30px);
+    background-color: #df001f;
+    color: #ffffff;
+    padding: 15px;
 }
+
 .container .intro__slider .singer {
-  font-family: "Oswald-Regular";
-  font-size: 1.5em;
+    font-family: "Oswald-Regular";
+    font-size: 1.5em;
 }
+
 .container .intro__slider .music-style {
-  font-family: "Droid-Sans";
-  font-size: 1.2em;
-  padding: 5px;
+    font-family: "Droid-Sans";
+    font-size: 1.2em;
+    padding: 5px;
 }
+
 .container .intro__slider .social__introduce {
-  padding-top: 10px;
-  width: 150px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    padding-top: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .container .intro__line {
-  width: 100%;
-  height: 2px;
-  background-color: #333333;
-  margin-top: 80px;
-  opacity: 0.35;
+    width: 100%;
+    height: 2px;
+    background-color: #333333;
+    margin-top: 80px;
+    opacity: 0.35;
 }
+
 
 /*# sourceMappingURL=introduce.css.map */
