@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/path/to/jquery.mCustomScrollbar.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/path/to/jquery.mCustomScrollbar.concat.min.js"></script>
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <style type="text/css">
+        main {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+        }
+        
+        section {
+            display: block;
+            width: 500px;
+            border: 1px solid #000;
+            padding: 1rem;
+        }
+        
+        .js-page-scroll {
+            width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+
+    <script>
+        $(window).load(function() {
+            // Horizontal scroll
+            if ($(".js-page-scroll").length) {
+                $(".js-page-scroll").mCustomScrollbar({
+                    axis: "x",
+                    theme: "dark-3",
+                    // scrollbarPosition: 'outside',
+                    advanced: {
+                        autoExpandHorizontalScroll: true
+                    },
+
+                    callbacks: {
+                        whileScrolling: function() {
+
+                            new WOW().init();
+
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+
+
+</body>
+
+</html>
