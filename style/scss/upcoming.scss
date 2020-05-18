@@ -150,3 +150,33 @@
             font-size: 1.2em;
         }
     }
+    
+    .slider-pic {
+        position: relative;
+    }
+    
+    .slider-date {
+        width: 100%;
+        position: absolute;
+        color: $white-text;
+        left: 44%;
+        top: 50px;
+        width: 40px;
+         :hover {
+            color: $red-text;
+        }
+    }
+    
+    .upcoming-day {
+        font-family: $font-bold;
+        font-size: 4.6em;
+        color: $white-text;
+        margin: 0;
+    }
+    
+    .upcoming-month {
+        font-family: $font-bold;
+        font-size: 3.2em;
+        color: $white-text;
+        margin: 0;
+    }
