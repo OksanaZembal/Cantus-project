@@ -146,4 +146,34 @@
   }
 }
 
+.slider-pic {
+  position: relative;
+}
+
+.slider-date {
+  width: 100%;
+  position: absolute;
+  color: #ffffff;
+  left: 44%;
+  top: 50px;
+  width: 40px;
+}
+.slider-date :hover {
+  color: #df001f;
+}
+
+.upcoming-day {
+  font-family: "Oswald-Bold";
+  font-size: 4.6em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.upcoming-month {
+  font-family: "Oswald-Bold";
+  font-size: 3.2em;
+  color: #ffffff;
+  margin: 0;
+}
+
 /*# sourceMappingURL=upcoming.css.map */
