@@ -1,0 +1,115 @@
+.popular__block-wrap {
+  margin-top: 100px;
+  flex: unset;
+}
+.popular__block-wrap .popular__header {
+  font-family: "Oswald-Regular";
+  font-size: 2em;
+  color: #333333;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.94;
+  letter-spacing: 3.2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.popular__block-wrap .popular__content {
+  font-family: "Vibes-Regular";
+  color: #df001f;
+  font-size: 3em;
+}
+.popular__block-wrap .instagram__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.popular__block-wrap .instagram__wrap .instagram__content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -5px;
+}
+.popular__block-wrap .instagram__wrap .instagram__content .instagram__content-pic {
+  width: 50%;
+  padding: 5px;
+}
+.popular__block-wrap .instagram__wrap .instagram__content .instagram__content-pic > img {
+  width: 100%;
+  background-size: cover;
+}
+
+audio {
+  width: 100%;
+  height: 40px;
+}
+audio :active {
+  border: none;
+}
+
+.player__list-wrap {
+  margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
+  .player__list-wrap {
+    margin-top: 5px;
+  }
+}
+
+div.player__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  font-family: "Droid-Sans";
+  font-size: 16px;
+}
+div.player__list > div {
+  width: 33%;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  div.player__list > div {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.audio__player-panel {
+  width: 125px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+}
+.audio__player-panel #range1 {
+  background-color: #df001f;
+}
+
+.audio__player-panel > button {
+  border-radius: 10px;
+  height: 20px;
+  width: 55px;
+  color: wheat;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: #df001f;
+  border: none;
+}
+.audio__player-panel > button:focus {
+  outline: none;
+}
+
+.player__list-wrap {
+  padding: 0;
+}
+
+.popular__content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=popular.css.map */

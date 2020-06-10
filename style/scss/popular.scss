@@ -1,0 +1,124 @@
+ //SCSS
+ $font-droid:"Droid-Sans";
+ $font-vibes:"Vibes-Regular";
+ $font-bold:"Oswald-Bold";
+ $font-regular:"Oswald-Regular";
+ $font-medium: "Oswald-Medium";
+ $bg-color:#df001f;
+ $white-text: #ffffff;
+ $black-text: #333333;
+ $red-text:#df001f;
+ $p:100px;
+ //@media screen and (max-width: 768px) {}
+ //@media screen and (max-width: 568px) {}
+ //CSS
+ .popular__block-wrap {
+     margin-top: $p;
+     flex: unset;
+     .popular__header {
+         font-family: $font-regular;
+         font-size: 2em;
+         color: $black-text;
+         font-weight: normal;
+         font-stretch: normal;
+         font-style: normal;
+         line-height: 0.94;
+         letter-spacing: 3.2px;
+         text-align: left;
+         text-transform: uppercase;
+     }
+     .popular__content {
+         font-family: $font-vibes;
+         color: $red-text;
+         font-size: 3em;
+     }
+     .instagram__wrap {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         .instagram__content {
+             display: flex;
+             flex-wrap: wrap;
+             margin-top: -5px;
+             .instagram__content-pic {
+                 width: 50%;
+                 padding: 5px;
+             }
+             .instagram__content-pic>img {
+                 width: 100%;
+                 background-size: cover;
+             }
+         }
+     }
+ }
+ 
+ audio {
+     width: 100%;
+     height: 40px;
+      :active {
+         border: none;
+     }
+ }
+ 
+ .player__list-wrap {
+     margin-top: 20px;
+     @media screen and (max-width: 991px) {
+         margin-top: 5px;
+     }
+ }
+ 
+ div.player__list {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-between;
+     list-style-type: none;
+     padding: 0;
+     font-family: $font-droid;
+     font-size: 16px;
+     &>div {
+         width: 33%;
+         align-items: center;
+         @media screen and (max-width: 991px) {}
+         @media screen and (max-width: 768px) {
+             width: 50%;
+             text-align: center;
+         }
+     }
+ }
+ 
+ .audio__player-panel {
+     width: $p*1.25;
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     align-self: flex-end;
+     #range1 {
+         background-color: $bg-color;
+     }
+ }
+ 
+ .audio__player-panel>button {
+     border-radius: 10px;
+     height: 20px;
+     width: 55px;
+     color: wheat;
+     font-size: 10px;
+     font-weight: bold;
+     background-color: $bg-color;
+     border: none;
+     &:focus {
+         outline: none;
+     }
+ }
+ 
+ .player__list-wrap {
+     padding: 0;
+ }
+ 
+ .popular__content-wrap {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }

@@ -3,6 +3,8 @@
 @import"css/banner.css";
 @import"css/introduce.css";
 @import"css/upcoming.css";
+@import"css/culture.css";
+@import"css/popular.css";
 body {
     font-size: 10px!important;
 }

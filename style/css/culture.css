@@ -1,0 +1,49 @@
+.culture__wrap {
+  margin-top: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 100px;
+  background-image: url("../../img/banner-down.jpg");
+  background-size: cover;
+  flex: unset;
+}
+@media screen and (max-width: 768px) {
+  .culture__wrap {
+    padding: 70px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .culture__wrap {
+    padding: 35px;
+  }
+}
+.culture__wrap .culture__header {
+  font-family: "Oswald-Medium";
+  font-size: 3.2em;
+  line-height: 2.27;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.culture__wrap .culture__content {
+  color: #ffffff;
+  max-width: 556px;
+  font-family: "Droid-Sans";
+  font-size: 2.2em;
+}
+.culture__wrap .culture__content .culture__content-special {
+  font-family: "Vibes-Regular";
+  font-size: 3.2em;
+  line-height: 1.16;
+  color: #df001f;
+}
+.culture__wrap .culture__btn {
+  display: block;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #df001f;
+  font-size: 1.8em;
+  padding: 10px 25px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=culture.css.map */

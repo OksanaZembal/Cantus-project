@@ -54,3 +54,9 @@ $('.latest__slider__cart').slick({
     prevArrow: "<img class='a-left control-c prev slick-prev' src='img/icon/left-arrow.png'>",
     nextArrow: "<img class='a-right control-c next slick-next' src='img/icon/right-arrow.png'>"
 });
+// howler
+// var sound = new Howl({
+//     src: ['./../123.mp3']
+// });
+
+// sound.play();
